@@ -1,0 +1,20 @@
+@charset"UTF-8";
+
+section{
+	width:600px;
+	margin: 0 auto;
+	background: #ffebf0;
+}
+h1{
+	margin: 0 0 1em;
+}
+img{
+	width:320px;
+	margin-right:1em;
+	margin-left:1em;
+	margin-bottom: 1em;
+	float:right;
+}
+p{
+	line-height: 1.8;
+}

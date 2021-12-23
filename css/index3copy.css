@@ -1,0 +1,26 @@
+*{ box-sizing: border-box;}
+
+ul{
+	background: #1b9aaa;
+	list-style:none;
+	text-align: center;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	
+	display: block;
+	padding:16px 120px 20px;
+        color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+}
+ul li a::first-line{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+ul li a:hover{
+	background:#14727e;
+}
