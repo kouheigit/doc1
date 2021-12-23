@@ -1,5 +1,27 @@
 *{
-	box-sizing:border-box;
-	margin: 0;
-	padding: 0;
+        box-sizing:border-box;
+        margin: 0;
+        padding: 0;
+}
+h2{
+    margin-bottom: 1em;
+}
+
+.boxall{
+        display: flex;
+        justify-content: space-around;
+}
+.box{
+	background: #09b;
+        color: #fff;
+         padding: 30px;
+        flex-basis:30%;
+
+}
+
+.box dt{
+	text-align: center;/*中央寄せ*/
+        margin-bottom: 10px;/*行間を開ける*/
+        font-size: 1.2em;
+        font-weight: bold;
 }
