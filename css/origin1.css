@@ -3,8 +3,10 @@
 	display: flex;/*flex-box化する*/
 	height:100vh;
 	align-items:flex-start;
+	/*gap: 30px 20px;*余白を開ける、flexboxを使用して余白がない時に使う*/
 	/*align-items:flex-start; */
 	/*水平方向の揃え*/
+       /*justify-content:space-around;　適度な余白を開けて配置する*/
          /*justify-content:space-between;間隔を開けて配置する*/
 	/*justify-content:center;中央に配置する*/
 	/*justify-content::flex-start; */

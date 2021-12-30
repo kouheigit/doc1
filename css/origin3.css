@@ -1,0 +1,26 @@
+@charset"UTF-8";
+section{
+}
+.itembox{
+	display:flex;
+        justify-content:center;
+	flex-wrap: wrap;
+	text-align:center;
+	align-items:center;
+	gap: 30px 20px;
+
+}
+.item{
+	background:#990000;
+	height:350px;
+	width:350px;
+	font-size:250px;
+	font-weight:bold;
+}
+.item1{
+        background:#0000CC;
+        height:350px;
+        width:350px;
+	font-size:250px;
+	font-weight:bold;
+}

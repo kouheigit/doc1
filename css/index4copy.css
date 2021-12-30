@@ -1,0 +1,30 @@
+*{ box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+ul.list2{
+	 background: #F0DCD4;	
+	list-style:none;
+	text-align: center;
+}
+ul.list2 li{
+	display: inline-block;
+}
+ul.list2 li a{
+	display: block;
+	padding: 30px 100px 20px;
+	color: #7b645d;
+	font-size: 14px;
+	text-decoration: none;
+}
+ul.list2 a:hover{
+	padding-bottom: 4px;
+	border-bottom: 6px solid #7b645d;
+}
+
+ul.list2 a img{
+	display: block;
+	/*padding:10px;*/
+	margin: 0 auto 1em;
+	height 30px;
+}
