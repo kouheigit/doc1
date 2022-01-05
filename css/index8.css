@@ -58,15 +58,17 @@ ul.gnav-list li a::first-line{
 }
 #gnav-btn{
 	display: block;
-	width: 40px;
-	height: 40px;
+	background: #1b9aaa url("../img/button.png")  center center no-repeat;
+	background-size: contain;
+        width:60px;
+ 	height:60px;
 	position: fixed;
-	top:20px;
+	top: 20px;
 	right:20px;
 	top:20px;
 	right:20px;
 	z-index: 100;
-	background: #1b9aaa url("../img/gnav-btn-open.png") center center no-repeat;
+/*	background: #1b9aaa url("../img/button.png")  center center no-repeat;*/
 }
 
 #gnav-black{
@@ -81,7 +83,8 @@ ul.gnav-list li a::first-line{
 }
 
 #gnav-input:checked ~ #gnav-btn{
-background: #1b9aaa url("../img/gnav-btn-close.png") center center no-repeat;
+background: #1b9aaa url("../img/back.png") center center no-repeat;
+background-size: contain;
 }
 #gnav-input:checked ~ #gnav-black{
 	display: block;
